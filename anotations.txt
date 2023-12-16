@@ -1,0 +1,3 @@
+// sempre definir tema inicial (tokens, espaçamentos e camadas)
+
+// usar camadas pré definidas para evitar problemas com z-index

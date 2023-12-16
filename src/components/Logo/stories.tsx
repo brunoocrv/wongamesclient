@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Main } from '.'
+import { Logo } from '.'
 
 export default {
-  title: 'Main',
-  component: Main,
+  title: 'Logo',
+  component: Logo,
 } as Meta
 
 export const Default: StoryObj = {}
