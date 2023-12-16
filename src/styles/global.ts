@@ -1,13 +1,14 @@
 'use client'
 
-import { createGlobalStyle } from "styled-components";
-
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   html {
@@ -16,6 +17,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-family:
+      'Poppins',
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
@@ -27,5 +29,6 @@ export const GlobalStyles = createGlobalStyle`
       'Open Sans',
       'Helvetica Neue',
       sans-serif;
+    font-display: swap;
   }
 `
